@@ -4908,8 +4908,8 @@
     },
     {
       "fullPath": "presets/4.4/tune/cicada/cicada_15_tune.txt",
-      "hash": "8db6d6fe872b054b499c46d12239f0051a756b902e42538ffc674e0a030c781a",
-      "title": "AOS 3.5 tune by Chris Rosser",
+      "hash": "6286089caf2f0589d2c7ca2bbb98af44b8ea04e09143cc7d5128606fda81304c",
+      "title": "Cicada 15 tune by Kuplet",
       "firmware_version": [
         "4.4",
         "4.3"
