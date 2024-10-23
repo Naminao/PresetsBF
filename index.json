@@ -158,7 +158,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.4/cicada/cicada_10_tune.txt",
+      "fullPath": "presets/4.4/tune/cicada_10_tune.txt",
       "hash": "7ab463f0f17dcb10478cdba895992d37009f0916709fc1226d078432e060a819",
       "title": "Cicada 10 diff by NewTech26",
       "firmware_version": [
@@ -179,7 +179,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/cicada/cicada_13_tune.txt",
+      "fullPath": "presets/4.4/tune/cicada_13_tune.txt",
       "hash": "31bc9ebc399805111272fdb9166318a5cb06099247b296223a78232016e8883a",
       "title": "Cicada 13 diff by NewTech26",
       "firmware_version": [
@@ -200,7 +200,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/cicada/cicada_15_tune.txt",
+      "fullPath": "presets/4.4/tune/cicada_15_tune.txt",
       "hash": "e15c3cf6d41ec8c570b3ba094be11b5478546ead551420c343533912ce269b84",
       "title": "Cicada 15 diff by NewTech26",
       "firmware_version": [
