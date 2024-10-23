@@ -1,0 +1,77 @@
+#$ TITLE: Cicada 10 diff by NewTech26
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Cicada, Cicada15, NewTech, pid, tune, 15
+#$ AUTHOR: NewTech26
+#$ DESCRIPTION: Tune for the Cicada 15 AO. Based on a 20000mAh 8S build with 350KV Motors.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Master multiplier is set to 1.25 for safety. Increase it carefully to further improve flight performance.
+#$ DESCRIPTION:
+#$ DESCRIPTION: RPM filtering is MANDATORY!
+#$ DESCRIPTION:
+#$ DESCRIPTION: Please carefully review the options above and tick any that are relevant.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Choose your RC link speed.
+#$ DESCRIPTION:
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+
+# -- PID values --
+
+set p_pitch = 57
+set i_pitch = 102
+set d_pitch = 57
+set f_pitch = 172
+set p_roll = 64
+set i_roll = 115
+set d_roll = 50
+set f_roll = 195
+set p_yaw = 64
+set i_yaw = 115
+set f_yaw = 195
+set d_min_roll = 37
+set d_min_pitch = 42
+set simplified_master_multiplier = 125
+set simplified_pi_gain = 115
+set simplified_feedforward_gain = 130
+set simplified_pitch_pi_gain = 85
+
+# -- iTerm relax (default)--
+# -- iTerm windup (default)--
+# -- iTerm rotation (off, default) --
+
+# -- Dmax --
+set d_max_advance = 0
+
+# -- TPA --
+
+# -- Feedforward --
+set feedforward_max_rate_limit = 95
+
+# -- PIDsum limits (default)--
+# -- Antigravity (default) --
+# -- Absolute control (off, default) --
+# -- Accecleration limits (off, default) --
+# -- Angle and Horizon mode tuning (default) --
+# -- PIDs active below min throttle (default) --
+# -- Set mixer type to default (legacy) --
+# -- Set yaw spin recovery to default, which is auto --
+# -- Set integrated yaw to off, so pitch and yaw are independent (default) --
+# -- Gyro cal on first arm (off, default) --
+# -- Transient throttle limit (off, default) --
+# -- Thrust linear (off, default) --
+# -- Throttle boost (default, 5)
+# -- VBat warning threshold --
+
+# -- DShot Idle --
+set dshot_idle_value = 300
+
+# -- Dynamic idle ON at 4500 rpm --
+set dyn_idle_min_rpm = 45
+set dyn_idle_p_gain = 40
+
+
+
+simplified_tuning apply
