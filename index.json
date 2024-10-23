@@ -191,6 +191,7 @@
       "MrAlucardDante",
       "Neil Marek (Grower)",
       "NemesisXB",
+      "NewTech26",
       "QuadMcFly (Ryan Harrell)",
       "Sartor",
       "Sjoer van der Ploeg",
@@ -214,6 +215,7 @@
       "100euro",
       "10in",
       "111hz",
+      "15",
       "150Hz",
       "15Hz",
       "166Hz",
@@ -314,6 +316,8 @@
       "Cgo",
       "Chief",
       "chris",
+      "Cicada",
+      "Cicada15",
       "cine25",
       "cine35",
       "cine80",
@@ -447,6 +451,7 @@
       "nanohawk",
       "Neil",
       "neuron",
+      "NewTech",
       "nice",
       "nmea",
       "no rpm",
@@ -4908,23 +4913,22 @@
     },
     {
       "fullPath": "presets/4.4/tune/cicada/cicada_15_tune.txt",
-      "hash": "6286089caf2f0589d2c7ca2bbb98af44b8ea04e09143cc7d5128606fda81304c",
-      "title": "Cicada 15 tune by Kuplet",
+      "hash": "5fee132affcfcb8b30af9bb8383ec4f02846ed827b3a047e57389bdd0f572961",
+      "title": "Cicada 15 diff by NewTech26",
       "firmware_version": [
-        "4.4",
-        "4.3"
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "aos",
-        "chris",
-        "rosser",
+        "Cicada",
+        "Cicada15",
+        "NewTech",
         "pid",
         "tune",
-        "3.5"
+        "15"
       ],
-      "author": "Chris Rosser",
+      "author": "NewTech26",
       "force_options_review": true,
       "priority": 1000000000000
     },

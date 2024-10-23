@@ -1,12 +1,10 @@
-#$ TITLE: Cicada 15 tune by Kuplet
+#$ TITLE: Cicada 15 diff by NewTech26
 #$ FIRMWARE_VERSION: 4.4
-#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: aos, chris, rosser, pid, tune, 3.5
-#$ AUTHOR: Chris Rosser
-#$ DISCUSSION: https://www.aos-rc.com
-#$ DESCRIPTION: Custom Tune for the AOS 3.5. Based on a 850mAh 4S build with 3000KV Motors.
+#$ KEYWORDS: Cicada, Cicada15, NewTech, pid, tune, 15
+#$ AUTHOR: NewTech26
+#$ DESCRIPTION: Tune for the Cicada 15 AO. Based on a 20000mAh 8S build with 350KV Motors.
 #$ DESCRIPTION:
 #$ DESCRIPTION: Master multiplier is set to 1.25 for safety. Increase it carefully to further improve flight performance.
 #$ DESCRIPTION:
